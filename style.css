@@ -1,5 +1,7 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+head {text-align: center;}
+
 header 
 {text-align: center;}
 body {
@@ -8,20 +10,22 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
+  
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
-h1,{text-align: center;}
+h1,{text-align: center;
 font-family: "Playfair Display", Times, serif;
 }
 
-h2, font-size: 12px;
-font-family: "playfair Display", Times, serif;"
-}
-h3 {text-align: center;
+h2, font-size: 25px;
+{font-family: "playfair Display", Times, serif;"
+text-align: center;}
+
+
+h3 {text-align: center;}
   font-family: "Playfair Display", Times, serif;
-  font-size: 8px;
-}
+  font-size: 8px;}
 
 article {
   padding: 50px 0;
@@ -56,6 +60,7 @@ hr {
 }
 
 /* Add your solution below */
+  
 
 .image-circle { border-radius: 50%;
                border: 2px solid #003049;;
