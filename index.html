@@ -11,73 +11,87 @@
 </head>
 
 <body>
-  <!-- TODO: Add header here -->
+  <!-- Header section -->
   <header>
-    <h1> Pete Thinkful | Artist </h1>
-    <p> <a href="#About">About </a>   
-    <a href="#Portfolio"">Portfolio </a>
-    <a href="#Contact">Contact </a> </p>
+    <div class="header-container">
+      <h1>Pete Thinkful | Artist</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
-  <main> 
-    <div>
-      <!-- TODO: Add About section here -->
-       <section id="about">
-      <article> <h2> About </h2>
-        <h3>Hi! I'm Pete Thinkful
-</h3>
-        <div>
-          <img class="image-circle" src="images/pete-thinkful.png" alt="Pete Thinkful">
+
+  <main>
+    <!-- About section -->
+    <section id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about-container">
+        <div class="about-image">
+           <img class="image-circle" src="images/pete-thinkful.png" alt="Pete Thinkful">
         </div>
-        <p>I'm an artist living in Denver, Colorado.</p>
-        <p> As an artist, I'm interested in: </p>
-        <ul>
-          <li> Producing abstract art </li>
-          <li> Creating street graffiti art </li>
-          <li> connecting with like-minded artists </li>
-        </ul
-          <p> Please feel free to take a look at my website and feel free to <a href="#contactme">contactme .</a> </p> 
-        <h3> Pete's Background </h3>
-         <p>After graduating college, I became an art teacher and worked with
-         beginners and professionals. I love art and my works have been
-         featured in major art galleries across the globe. </p>
-        <p>If you're looking to hire an artist or if you're an artist looking for a collaborator for your next project, please reach out! I'm so
-        excited to work with other artists to create new art.</p>
-      </article>
 
-      <hr>
+        <div class="about-content">
+          <h3>Hi! I'm Pete Thinkful</h3>
+          <p>I'm an artist living in Denver, Colorado.</p>
+          <p>As an artist, I'm interested in:</p>
+          <ul>
+            <li>Producing abstract art</li>
+            <li>Creating street graffiti art</li>
+            <li>Connecting with like-minded artists</li>
+          </ul>
+          <p>Please feel free to take a look at my website and feel free to <a href="#contact">contact me</a>.</p>
+        </div>
+      </div>
 
-      <!-- TODO: Add Portfolio section here -->
-         <section id="Portfolio">
-      <article> <h3>Portfolio</h3>
-        <div> <p> Abstract Red </p>
-          <img src="images/abstract-red.png" alt="Abstract Red">
-        </div> <p>Vaporware wayfarers heirloom neutra disrupt. Activated charcoal
-        waistcoat scenester hell of. </p>
-        <div>
-          <p>Spiral Zenny </p>
+      <div class="background-section">
+        <h3>Pete's Background</h3>
+        <p>After graduating college, I became an art teacher and worked with beginners and professionals. I love art and my works have been featured in major art galleries across the globe.</p>
+        <p>If you're looking to hire an artist or if you're an artist looking for a collaborator for your next project, please reach out! I'm so excited to work with other artists to create new art.</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Portfolio section -->
+    <section id="portfolio">
+      <h2 class="section-title">Portfolio</h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-item">
+          <h3>Abstract Red</h3>
+           <img src="images/abstract-red.png" alt="Abstract Red">
+          <p class="project-description">Vaporware wayfarers heirloom neutra disrupt. Activated charcoal waistcoat scenester hell of.</p>
+        </div>
+
+        <div class="portfolio-item">
+          <h3>Spiral Zenny</h3>
           <img src="images/spiral-zany.png" alt="Spiral Zany">
-        </div> <p>Sriracha portland taxidermy cronut messenger bag, vegan
-        distillery. Vaporware kickstarter air plant mumblecore food truck. </p>
-        <div>
-          <p>Melted Rainbow </p>
+          <p class="project-description">Sriracha portland taxidermy cronut messenger bag, vegan distillery. Vaporware kickstarter air plant mumblecore food truck.</p>
+        </div>
+
+        <div class="portfolio-item">
+          <h3>Melted Rainbow</h3>
           <img src="images/melted-rainbow.png" alt="Melted Rainbow">
-        </div> <p>Edison bulb single-origin coffee snackwave, actually ennui
-        locavore shabby chic forage.</p>
-      </article>
+          <p class="project-description">Edison bulb single-origin coffee snackwave, actually ennui locavore shabby chic forage.</p>
+        </div>
+      </div>
+    </section>
 
-      <hr>
+    <hr>
 
-      <!-- TODO: Add Contact section here -->
-           <section id="Contact">
-             <div>
-    </div> <h3> Contact </h3>
-               <p>I'd love to hear from you! Please feel free to contact or follow me: </p>
-                     <ol>
-              <li>  <a href="#LinkedIn">LinkedIn</a> </li>
-              <li>  <a href="#Instagram">Instagram</a> </li>
-               <li>  <a href="#Pinterest">Pinterest</a> </li>
-
-                     </ol>
+    <!-- Contact section -->
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p>I'd love to hear from you! Please feel free to contact or follow me:</p>
+      <ol>
+        <li><a href="#LinkedIn">LinkedIn</a></li>
+        <li><a href="#Instagram">Instagram</a></li>
+        <li><a href="#Pinterest">Pinterest</a></li>
+      </ol>
+    </section>
   </main>
 
   <!-- Footer section -->
@@ -87,3 +101,4 @@
 </body>
 
 </html>
+
