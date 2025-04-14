@@ -13,11 +13,9 @@ body {
 
 /* Typography */
 h1,
-h2,{text-align: left;
-   }
+h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
-  text-align: left;
 }
 
 h1 {
@@ -32,6 +30,7 @@ h1 {
 
 p {
   line-height: 1.5;
+  text-align: center;
 }
 
 /* Links */
